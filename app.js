@@ -14,6 +14,7 @@ function displayMovies(moviesToDisplay) {
   container.innerHTML = moviesToDisplay
     .map(movie => `
       <article class="movie-card">
+        <img src="${movie.png}" alt="${movie.title}" class="movie-image" />
         <div class="movie-rating">
           ⭐ ${movie.rating}
         </div>
