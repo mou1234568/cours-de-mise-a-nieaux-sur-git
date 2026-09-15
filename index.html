@@ -9,7 +9,7 @@
 
 <body>
 
-  <header class="main-header">
+  <header class="main-header" id="accueil">
     <div class="nav-container">
 
       <h1 class="logo">CineScope</h1>
@@ -17,7 +17,7 @@
       <button class="burger-menu" id="burger-menu">☰</button>
 
       <nav class="nav-menu" id="nav-menu">
-        <a href="#">Accueil</a>
+        <a href="#accueil">Accueil</a>
         <a href="#films">Films</a>
         <a href="#a-propos">À propos</a>
       </nav>
@@ -26,11 +26,13 @@
   </header>
 
 
-  <section class="movies-section" id="films">
+  <section id="films" class="movies-section">
 
     <div class="section-header">
       <h2>Les films</h2>
+
       <p>Explorez, découvrez, regardez</p>
+
       <p id="movie-result"></p>
     </div>
 
@@ -46,7 +48,33 @@
   </section>
 
 
-  <footer id="a-propos">
+  <section id="a-propos" class="about-section">
+
+    <h2>À propos</h2>
+
+    <p>
+      <strong>Movie Explorer</strong> est une plateforme d'affichage de films.
+    </p>
+
+    <p>
+      <strong>Objectif :</strong> permettre de parcourir un catalogue de films
+      et de les rechercher facilement.
+    </p>
+
+    <p>
+      L'application affiche une liste de films avec leur note, leur année,
+      leur genre et leur réalisateur, et propose une barre de recherche par titre.
+    </p>
+
+    <p>
+      <strong>Technologies utilisées :</strong> HTML, CSS et JavaScript,
+      avec les données stockées dans un fichier JSON.
+    </p>
+
+  </section>
+
+
+  <footer>
     <p>© 2026 Movie Explorer — Projet réalisé dans le cadre de l'atelier Git.</p>
   </footer>
 
