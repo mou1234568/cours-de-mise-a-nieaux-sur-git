@@ -105,6 +105,15 @@ h1 {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.55), 0 0 20px rgba(245, 197, 66, 0.12);
 }
 
+.movie-image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+
 .movie-rating {
     display: inline-block;
     margin-top: 15px;
