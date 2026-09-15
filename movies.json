@@ -5,94 +5,117 @@
     "year": 2010,
     "genre": "Science-Fiction",
     "rating": 8.8,
-    "director": "Jim Jarmusch"
+    "director": "Jim Jarmusch",
+    "description": "Un voleur spécialisé dans l'espionnage des rêves reçoit la mission d'implanter une idée dans l'esprit d'une personne."
   },
+
   {
     "id": 2,
     "title": "Parasite",
     "year": 2019,
     "genre": "Drame",
     "rating": 8.5,
-    "director": "Bong Joon-ho"
+    "director": "Bong Joon-ho",
+    "description": "Une famille pauvre s'introduit progressivement dans la vie d'une famille riche, avec des conséquences inattendues."
   },
+
   {
     "id": 3,
     "title": "The Dark Knight",
     "year": 2008,
     "genre": "Action",
     "rating": 9.0,
-    "director": "Jim Jarmusch"
+    "director": "Jim Jarmusch",
+    "description": "Batman affronte le Joker, un criminel imprévisible qui plonge Gotham City dans le chaos."
   },
+
   {
     "id": 4,
     "title": "Pulp Fiction",
     "year": 1994,
     "genre": "Crime",
     "rating": 8.9,
-    "director": "Quentin Tarantino"
+    "director": "Quentin Tarantino",
+    "description": "Plusieurs histoires de criminels, de tueurs et de gangsters se croisent dans un Los Angeles violent et décalé."
   },
+
   {
     "id": 5,
     "title": "The Grand Budapest Hotel",
     "year": 2014,
     "genre": "Comédie",
     "rating": 8.1,
-    "director": "Wes Anderson"
+    "director": "Wes Anderson",
+    "description": "Un concierge et son jeune assistant vivent de nombreuses aventures autour d'un hôtel luxueux dans une Europe fictive."
   },
+
   {
     "id": 6,
     "title": "Spirited Away",
     "year": 2001,
     "genre": "Animation",
     "rating": 8.6,
-    "director": "Hayao Miyazaki"
+    "director": "Hayao Miyazaki",
+    "description": "Une jeune fille se retrouve dans un monde magique et doit trouver un moyen de sauver ses parents et de rentrer chez elle."
   },
+
   {
     "id": 7,
     "title": "Interstellar",
     "year": 2014,
     "genre": "Science-Fiction",
     "rating": 8.7,
-    "director": "Christopher Nolan"
+    "director": "Christopher Nolan",
+    "description": "Un groupe d'explorateurs voyage à travers l'espace pour chercher une nouvelle planète capable d'accueillir l'humanité."
   },
+
   {
     "id": 8,
     "title": "The Godfather",
     "year": 1972,
     "genre": "Crime",
     "rating": 9.2,
-    "director": "Francis Ford Coppola"
+    "director": "Francis Ford Coppola",
+    "description": "L'histoire d'une puissante famille mafieuse et des conflits qui entourent sa succession et son pouvoir."
   },
+
   {
     "id": 9,
     "title": "Amélie",
     "year": 2001,
     "genre": "Comédie",
     "rating": 8.3,
-    "director": "Jean-Pierre Jeunet"
+    "director": "Jean-Pierre Jeunet",
+    "description": "Une jeune femme vivant à Paris décide d'améliorer discrètement la vie des personnes qui l'entourent tout en cherchant l'amour."
   },
+
   {
     "id": 10,
     "title": "Whiplash",
     "year": 2014,
     "genre": "Drame",
     "rating": 8.5,
-    "director": "Damien Chazelle"
+    "director": "Damien Chazelle",
+    "description": "Un jeune batteur de jazz travaille sans relâche sous la direction d'un professeur extrêmement exigeant pour atteindre l'excellence."
   },
+
   {
     "id": 11,
     "title": "Get Out",
     "year": 2017,
     "genre": "Horreur",
     "rating": 7.8,
-    "director": "Jordan Peele"
+    "director": "Jordan Peele",
+    "description": "Un jeune homme rend visite à la famille de sa petite amie et découvre progressivement que quelque chose de très inquiétant se prépare."
   },
+
   {
     "id": 12,
     "title": "Toy Story",
     "year": 1995,
     "genre": "Animation",
     "rating": 8.3,
-    "director": "John Lasseter"
+    "director": "John Lasseter",
+    "description": "Des jouets prennent vie lorsque les humains ne sont pas là et doivent apprendre à vivre avec l'arrivée d'un nouveau jouet."
   }
 ]
