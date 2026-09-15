@@ -20,21 +20,86 @@ body {
 /* =========================
    HEADER
 ========================= */
+
 h1 {
-  text-align: center;
-  margin-top: 64px;
-  font-size: 48px;
+    text-align: center;
+    margin-top: 64px;
+    font-size: 48px;
 }
+
 .search-bar {
-  display: block;
-  width: 400px;
-  max-width: 90%;
-  margin: 0 auto 32px auto;
-  padding: 12px 16px;
-  font-size: 16px;
-  border: 1px solid #e5e7eb;
-  border-radius: 8px;
+    display: block;
+    width: 400px;
+    max-width: 90%;
+    margin: 0 auto 32px auto;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
 }
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+.main-header {
+    padding: 20px 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    background: #0b0f1a;
+    position: relative;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 0;
+    font-size: 28px;
+    color: #f9fafb;
+    text-align: left;
+}
+
+.burger-menu {
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: #f5c542;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: none;
+    position: absolute;
+    top: 75px;
+    right: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #1a1d2b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    z-index: 1000;
+}
+
+.nav-menu.active {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #f1f5f9;
+}
+
+.nav-menu a:hover {
+    color: #f5c542;
+}
+
 
 /* =========================
    MOVIES SECTION
@@ -167,6 +232,8 @@ footer {
 @media (max-width: 900px) {
     .movies-grid {
         grid-template-columns: repeat(2, 1fr);
+        margin-left: 30px;
+        margin-right: 30px;
     }
 }
 
@@ -181,9 +248,24 @@ footer {
 
     .movies-grid {
         grid-template-columns: 1fr;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     main {
         padding: 25px 15px;
+    }
+
+    .main-header {
+        padding: 16px 20px;
+    }
+
+    .nav-menu {
+        top: 65px;
+        right: 20px;
+    }
+
+    .logo {
+        font-size: 22px;
     }
 }

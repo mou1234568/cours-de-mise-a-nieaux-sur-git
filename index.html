@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
 </head>
 
-  <section class="movies-section">
+<body>
+
+<header class="main-header">
+  <div class="nav-container">
+    <h1 class="logo">Movie Explorer</h1>
+
+    <button class="burger-menu" id="burger-menu">☰</button>
+
+    <nav class="nav-menu" id="nav-menu">
+      <a href="#">Accueil</a>
+      <a href="#films">Films</a>
+      <a href="#about">À propos</a>
+    </nav>
+  </div>
+</header>
+
+  <section class="movies-section" id="films">
       <div class="section-header">
       <h2>Les films</h2>
       <p style="text-align: center;">Explorez, découvrez, regardez</p>
       <p id="movie-result"></p>
       </div>
+
     <input type="text" id="search" class="search-bar" placeholder="🔎 Rechercher un film...">
+
     <div id="movies" class="movies-grid"></div>
   </section>
 
-
-  <footer>
+  <footer id="about">
     <p>© 2026 Movie Explorer — Projet réalisé dans le cadre de l'atelier Git.</p>
   </footer>
 
