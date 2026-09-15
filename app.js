@@ -59,3 +59,9 @@ document.querySelector("#search").addEventListener("input", (event) => {
 });
 
 loadMovies();
+const burgerMenu = document.querySelector("#burger-menu");
+const navMenu = document.querySelector("#nav-menu");
+
+burgerMenu.addEventListener("click", () => {
+  navMenu.classList.toggle("active");
+});
