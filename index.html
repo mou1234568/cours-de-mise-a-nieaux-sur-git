@@ -4,41 +4,55 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
+  <title>CineScope</title>
 </head>
 
 <body>
 
-<header class="main-header">
-  <div class="nav-container">
-    <h1 class="logo">Movie Explorer</h1>
+  <header class="main-header">
+    <div class="nav-container">
 
-    <button class="burger-menu" id="burger-menu">☰</button>
+      <h1 class="logo">CineScope</h1>
 
-    <nav class="nav-menu" id="nav-menu">
-      <a href="#">Accueil</a>
-      <a href="#films">Films</a>
-      <a href="#about">À propos</a>
-    </nav>
-  </div>
-</header>
+      <button class="burger-menu" id="burger-menu">☰</button>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#">Accueil</a>
+        <a href="#films">Films</a>
+        <a href="#a-propos">À propos</a>
+      </nav>
+
+    </div>
+  </header>
+
 
   <section class="movies-section" id="films">
-      <div class="section-header">
-      <h2>Les films</h2>
-      <p style="text-align: center;">Explorez, découvrez, regardez</p>
-      <p id="movie-result"></p>
-      </div>
 
-    <input type="text" id="search" class="search-bar" placeholder="🔎 Rechercher un film...">
+    <div class="section-header">
+      <h2>Les films</h2>
+      <p>Explorez, découvrez, regardez</p>
+      <p id="movie-result"></p>
+    </div>
+
+    <input
+      type="text"
+      id="search"
+      class="search-bar"
+      placeholder="🔎 Rechercher un film..."
+    >
 
     <div id="movies" class="movies-grid"></div>
+
   </section>
 
-  <footer id="about">
+
+  <footer id="a-propos">
     <p>© 2026 Movie Explorer — Projet réalisé dans le cadre de l'atelier Git.</p>
   </footer>
+
 
   <script src="app.js"></script>
 
 </body>
+
 </html>
