@@ -6,8 +6,13 @@
     "genre": "Science-Fiction",
     "rating": 8.8,
     "director": "Jim Jarmusch",
+<<<<<<< HEAD
     "image": "images/inception.jpg"
+=======
+    "description": "Un voleur spécialisé dans l'espionnage des rêves reçoit la mission d'implanter une idée dans l'esprit d'une personne."
+>>>>>>> fee77cdaea257c41374d5253057f1210bbf0626c
   },
+
   {
     "id": 2,
     "title": "Parasite",
@@ -15,8 +20,13 @@
     "genre": "Drame",
     "rating": 8.5,
     "director": "Bong Joon-ho",
+<<<<<<< HEAD
     "image": "images/parasite.jpg"
+=======
+    "description": "Une famille pauvre s'introduit progressivement dans la vie d'une famille riche, avec des conséquences inattendues."
+>>>>>>> fee77cdaea257c41374d5253057f1210bbf0626c
   },
+
   {
     "id": 3,
     "title": "The Dark Knight",
@@ -24,8 +34,13 @@
     "genre": "Action",
     "rating": 9.0,
     "director": "Jim Jarmusch",
+<<<<<<< HEAD
     "image": "images/the-dark-knight.jpg"
+=======
+    "description": "Batman affronte le Joker, un criminel imprévisible qui plonge Gotham City dans le chaos."
+>>>>>>> fee77cdaea257c41374d5253057f1210bbf0626c
   },
+
   {
     "id": 4,
     "title": "Pulp Fiction",
@@ -33,8 +48,13 @@
     "genre": "Crime",
     "rating": 8.9,
     "director": "Quentin Tarantino",
+<<<<<<< HEAD
     "image": "images/pulp-fiction.jpg"
+=======
+    "description": "Plusieurs histoires de criminels, de tueurs et de gangsters se croisent dans un Los Angeles violent et décalé."
+>>>>>>> fee77cdaea257c41374d5253057f1210bbf0626c
   },
+
   {
     "id": 5,
     "title": "The Grand Budapest Hotel",
@@ -42,8 +62,13 @@
     "genre": "Comédie",
     "rating": 8.1,
     "director": "Wes Anderson",
+<<<<<<< HEAD
     "image": "images/grand-budapest-hotel.jpg"
+=======
+    "description": "Un concierge et son jeune assistant vivent de nombreuses aventures autour d'un hôtel luxueux dans une Europe fictive."
+>>>>>>> fee77cdaea257c41374d5253057f1210bbf0626c
   },
+
   {
     "id": 6,
     "title": "Spirited Away",
@@ -51,8 +76,13 @@
     "genre": "Animation",
     "rating": 8.6,
     "director": "Hayao Miyazaki",
+<<<<<<< HEAD
     "image": "images/spirited-away.jpg"
+=======
+    "description": "Une jeune fille se retrouve dans un monde magique et doit trouver un moyen de sauver ses parents et de rentrer chez elle."
+>>>>>>> fee77cdaea257c41374d5253057f1210bbf0626c
   },
+
   {
     "id": 7,
     "title": "Interstellar",
@@ -60,8 +90,13 @@
     "genre": "Science-Fiction",
     "rating": 8.7,
     "director": "Christopher Nolan",
+<<<<<<< HEAD
     "image": "images/interstellar.jpg"
+=======
+    "description": "Un groupe d'explorateurs voyage à travers l'espace pour chercher une nouvelle planète capable d'accueillir l'humanité."
+>>>>>>> fee77cdaea257c41374d5253057f1210bbf0626c
   },
+
   {
     "id": 8,
     "title": "The Godfather",
@@ -69,8 +104,13 @@
     "genre": "Crime",
     "rating": 9.2,
     "director": "Francis Ford Coppola",
+<<<<<<< HEAD
     "image": "images/the-godfather.jpg"
+=======
+    "description": "L'histoire d'une puissante famille mafieuse et des conflits qui entourent sa succession et son pouvoir."
+>>>>>>> fee77cdaea257c41374d5253057f1210bbf0626c
   },
+
   {
     "id": 9,
     "title": "Amélie",
@@ -78,8 +118,13 @@
     "genre": "Comédie",
     "rating": 8.3,
     "director": "Jean-Pierre Jeunet",
+<<<<<<< HEAD
     "image": "images/amelie.jpg"
+=======
+    "description": "Une jeune femme vivant à Paris décide d'améliorer discrètement la vie des personnes qui l'entourent tout en cherchant l'amour."
+>>>>>>> fee77cdaea257c41374d5253057f1210bbf0626c
   },
+
   {
     "id": 10,
     "title": "Whiplash",
@@ -87,8 +132,13 @@
     "genre": "Drame",
     "rating": 8.5,
     "director": "Damien Chazelle",
+<<<<<<< HEAD
     "image": "images/whiplash.jpg"
+=======
+    "description": "Un jeune batteur de jazz travaille sans relâche sous la direction d'un professeur extrêmement exigeant pour atteindre l'excellence."
+>>>>>>> fee77cdaea257c41374d5253057f1210bbf0626c
   },
+
   {
     "id": 11,
     "title": "Get Out",
@@ -96,8 +146,13 @@
     "genre": "Horreur",
     "rating": 7.8,
     "director": "Jordan Peele",
+<<<<<<< HEAD
     "image": "images/get-out.jpg"
+=======
+    "description": "Un jeune homme rend visite à la famille de sa petite amie et découvre progressivement que quelque chose de très inquiétant se prépare."
+>>>>>>> fee77cdaea257c41374d5253057f1210bbf0626c
   },
+
   {
     "id": 12,
     "title": "Toy Story",
@@ -105,6 +160,10 @@
     "genre": "Animation",
     "rating": 8.3,
     "director": "John Lasseter",
+<<<<<<< HEAD
     "image": "images/toy-story.jpg"
+=======
+    "description": "Des jouets prennent vie lorsque les humains ne sont pas là et doivent apprendre à vivre avec l'arrivée d'un nouveau jouet."
+>>>>>>> fee77cdaea257c41374d5253057f1210bbf0626c
   }
 ]
