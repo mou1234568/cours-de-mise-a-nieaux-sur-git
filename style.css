@@ -25,7 +25,16 @@ h1 {
   margin-top: 64px;
   font-size: 48px;
 }
-
+.search-bar {
+  display: block;
+  width: 400px;
+  max-width: 90%;
+  margin: 0 auto 32px auto;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
 
 /* =========================
    MOVIES SECTION

@@ -47,5 +47,14 @@ function displayStats(moviesToDisplay) {
   const averageRating = totalRating / count;
 
 }
+document.querySelector("#search").addEventListener("input", (event) => {
+  const texte = event.target.value.toLowerCase();
+
+  const filtres = movies.filter(movie =>
+    movie.title.toLowerCase().includes(texte)
+  );
+
+  displayMovies(filtres);
+});
 
 loadMovies();
